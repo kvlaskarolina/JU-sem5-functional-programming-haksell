@@ -1,0 +1,4 @@
+-- Teza: NOT F redukuje się do T
+-- Definiujemy:
+-- T = λxy.x,
+-- F = λxy.y,

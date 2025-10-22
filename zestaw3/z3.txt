@@ -1,0 +1,3 @@
+λab.Cab - wolne c 
+λy.X(λxy.Zyx) - wolne {zx} 
+(λy.X(λxy.Zyx))(XYZ) - wolne {x,y,z}

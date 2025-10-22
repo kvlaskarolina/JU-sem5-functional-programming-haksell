@@ -1,0 +1,5 @@
+λab.abab
+λabc.ab(ca)bc
+
+(λab.(((ab)a)b))
+λabc.(ab)(ca)bc
