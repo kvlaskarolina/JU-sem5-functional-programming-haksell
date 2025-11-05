@@ -1,0 +1,1 @@
+quickSort :: (Ord a) => [a] -> [a]
