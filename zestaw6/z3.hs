@@ -1,5 +1,5 @@
 mapL :: (b->a) -> [b] -> [a]
-mapL f = foldl (\acc x -> acc ++ [(f x)]) []
+mapL f = foldl (\xs x -> xs ++ [(f x)]) []
  
 mapR :: (b->a) -> [b] -> [a]
-mapR f = foldr (\x acc -> (f x ) : acc)  []
+mapR f = foldr (\x xs -> (f x ) : xs)  []
