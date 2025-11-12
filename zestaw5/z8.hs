@@ -6,6 +6,6 @@ primeList :: [Integer]
 primeList = sieve [2..]
 
 sieve :: [Integer] -> [Integer]
+sieve [] = []
 sieve (p : xs) = 
     p : sieve (filter (\x -> x `mod` p /= 0) xs)
-sieve [] = []
