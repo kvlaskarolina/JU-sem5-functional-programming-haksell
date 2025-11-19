@@ -1,0 +1,20 @@
+data Calkowite = Zero | Nastepnik Calkowite | Poprzednik Calkowite
+    deriving (Show, Eq) 
+
+calToInt :: Calkowite -> Integer
+calToInt Zero = 0
+calToInt (Nastepnik x) = (calToInt x) + 1
+calToInt (Poprzednik x) = (calToInt x) - 1
+
+-- do testowania
+jeden :: Calkowite
+jeden = Nastepnik Zero
+
+minusJeden :: Calkowite
+minusJeden = Poprzednik Zero
+
+dwa :: Calkowite
+dwa = Nastepnik jeden
+
+zeroZlozone :: Calkowite
+zeroZlozone = Nastepnik (Poprzednik Zero)
