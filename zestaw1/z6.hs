@@ -1,15 +1,13 @@
 merge :: [Int] -> [Int] -> [Int]
-merge [] xt = xt
-merge xs [] = xs
-merge (x:xs) (y:yt)
-    | x > y     = y : merge (x:xs) yt
-    | otherwise = x : merge xs (y:yt) 
+merge [] [] = []
+merge [] x = x
+merge x [] = x
+merge (x:xs) (y:ys) | x < y = x : merge xs (y : ys)
+                    | otherwise = y : merge (x:xs)  ys
+
+
 
 mergeSort :: [Int] -> [Int]
-mergeSort []  = []
-mergeSort [x] = [x]
-mergeSort xs =
-    let 
-        n = length xs `div` 2 
-    in
-        merge (mergeSort (take n xs)) (mergeSort (drop n xs))
+mergeSort [] = []
+mergeSort x | length x >= 2 = merge (mergeSort (take ((length x )`div` 2) x ) ) (mergeSort( drop ((length x) `div` 2) x))
+            | otherwise = x
