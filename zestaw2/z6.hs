@@ -1,4 +1,4 @@
--- przeanalizowac jeszcze raz
+
 podlisty :: [Integer] -> [[Integer]]
 podlisty [] = [[]]
 podlisty (x:xs) =

@@ -18,8 +18,8 @@ checklist
 - [x] zadanie 2
 - [x] zadanie 3
 - [x] zadanie 4
-- [ ] zadanie 5
-- [ ] zadanie 6
+- [x] zadanie 5
+- [x] zadanie 6
 - [x] zadanie 7
 
 ## zestaw 3
