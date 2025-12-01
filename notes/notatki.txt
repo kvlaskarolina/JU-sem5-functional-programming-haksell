@@ -1,0 +1,22 @@
+wyklad 1 ---
+
+wyklad 2 ---
+(+) :: Num a => a -> a -> a
+(.) :: (b -> c) -> (a -> b) -> a -> c - zlozenie funkcji
+repeat – tworzy nieskończona listę powtarzając podany
+argument
+cycle – tworzy nieskończona listę powtarzając podaną listę
+elem <obiekt> <lista> – sprawdza, czy obiekt jest na liście
+filter <warunek> <lista> – zwraca podlistę elementów spełniających warunek
+Eq,Num,Show
+wyklad 3 ---
+
+wyklad 4 ---
+
+wyklad 5 ---
+
+wyklad 6 ---
+
+wyklad 7 ---
+
+wyklad 8 ---
