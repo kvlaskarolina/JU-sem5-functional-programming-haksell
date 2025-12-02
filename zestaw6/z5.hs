@@ -1,20 +1,15 @@
-czy1 :: (Int,Int) -> Bool
-czy1 p
-    | (fst p >= 0 && snd p >= 0) = true
-    | otherwise = false  
-czy2 :: (Int,Int) -> Bool
-czy2 p
-    | (fst p <= 0 && snd p >= 0) = true
-    | otherwise = false  
-czy3 :: (Int,Int) -> Bool
-czy3 p
-    | (fst p <= 0 && snd p <= 0) = true
-    | otherwise = false  
-czy4 :: (Int,Int) -> Bool
-czy4 p
-    | (fst p >= 0 && snd p <= 0) = true
-    | otherwise = false  
-
-
-ktoraCwiartka :: [(Int,Int)] -> Int
-ktoraCwiartka x:xs = 
+ktoraCwiartka :: [(Int, Int)] -> Int
+zliczCwiartki :: [(Int, Int)] -> [Int]
+zliczCwiartki lst = foldl (\counters pt -> [mapCounter i pt (counters !! (i - 1)) | i <-[1..4]]) [0, 0, 0, 0] lst
+  where mapCounter 1 (a, b) ct = if (a >= 0 && b >= 0) then ct + 1 else ct
+        mapCounter 2 (a, b) ct = if (a <= 0 && b >= 0) then ct + 1 else ct
+        mapCounter 3 (a, b) ct = if (a <= 0 && b <= 0) then ct + 1 else ct
+        mapCounter 4 (a, b) ct = if (a >= 0 && b <= 0) then ct + 1 else ct
+ 
+ 
+ktoraCwiartka lst | mx == (counters !! 0) = 1
+                  | mx == (counters !! 1) = 2
+                  | mx == (counters !! 2) = 3
+                  | mx == (counters !! 3) = 4
+  where counters = zliczCwiartki lst
+        mx = maximum counters

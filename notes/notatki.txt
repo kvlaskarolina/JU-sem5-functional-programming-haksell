@@ -50,6 +50,9 @@ zipWith :: (a -> b -> c) -> [a] -> [b] -> [c]
 
 wyklad 6 ---
 
+foldl - (. . .((x ◦ x1) ◦ x2) ◦ . . .) ◦ xn.
+foldr - x1 ◦ (x2 ◦ . . . ◦ (xn−1 ◦ (xn ◦ x)). . .).
+
 wyklad 7 ---
 
 wyklad 8 ---
