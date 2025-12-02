@@ -14,6 +14,39 @@ wyklad 3 ---
 wyklad 4 ---
 
 wyklad 5 ---
+map :: (a -> b) -> [a] -> [b]
+przyjmuje funkcję f oraz listę (x1, . . . , xn) i zwraca listę
+(f (x1), . . . , f (xn)).
+
+filter :: (a -> Bool) -> [a] -> [a]
+filter (\x->x `mod` 3 == 1) [1..10] --wklejam to dla skladni
+
+Przydatną funkcją w sytuacji powyżej może być takeWhile, która
+pobiera elementy z listy, póki spełniają podany warunek.
+Przykładowo:
+takeWhile (<10) [1..]
+poprawnie zwróci skończoną listę
+[1,2,3,4,5,6,7,8,9]
+Analogiczna funkcja dropWhile działa podobnie, jednak ignoruje
+elementy zamiast je pobierać, na przykład
+dropWhile (<5) [1..10]
+zwraca
+[5,6,7,8,9,10]
+
+Funkcja concatMap działa podobnie do map, jednak przyjmuje listę
+list, po zastosowaniu na każdej z nich podanej funkcji scala wyniki
+w jedną listę. Przykładowo:
+concatMap (take 2) ["Ala","ma","kota"]
+zwraca
+"Almako"
+
+iterate :: (a -> a) -> a -> [a]
+przyjmuje funkcję f oraz element x, na którym można  wywołać
+funkcję f i zwraca nieskończoną listę (x, f (x), f (f (x)), . . .).
+
+zip :: [a] -> [b] -> [(a, b)]
+zipWith :: (a -> b -> c) -> [a] -> [b] -> [c]
+
 
 wyklad 6 ---
 
