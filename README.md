@@ -73,72 +73,72 @@ checklist
 
 ## s1314
 
-- [x] zadanie 1
-- [ ] zadanie 2
+- [x] zadanie 1 -
+- [ ] zadanie 2 -
 - [x] zadanie 3
 
 ## s1415
 
 - [x] zadanie 1
 - [ ] zadanie 2
-- [x] zadanie 3
+- [x] zadanie 3 -
 
 ## s1516
 
-- [ ] zadanie 1
-- [ ] zadanie 2
+- [ ] zadanie 1 -
+- [x] zadanie 2 -
 - [ ] zadanie 3
 
 ## s1617
 
-- [ ] zadanie 1
+- [ ] zadanie 1 -
 - [ ] zadanie 2
 - [ ] zadanie 3
 
 ## s1718
 
 - [ ] zadanie 1
-- [ ] zadanie 2
+- [ ] zadanie 2 ??
 - [ ] zadanie 3
 
 ## s1819
 
 - [ ] zadanie 1
 - [ ] zadanie 2
-- [ ] zadanie 3
+- [x] zadanie 3
 
 ## s1920
 
-- [ ] zadanie 1
+- [ ] zadanie 1 -
 - [ ] zadanie 2
 - [ ] zadanie 3
 
 ## s2021
 
-- [ ] zadanie 1
+- [ ] zadanie 1 -
 - [ ] zadanie 2
 - [ ] zadanie 3
 
 ## s2122
 
-- [ ] zadanie 1
-- [ ] zadanie 2
+- [ ] zadanie 1 -
+- [ ] zadanie 2 -
 - [ ] zadanie 3
 
 ## s2223
 
-- [ ] zadanie 1
-- [ ] zadanie 2
+- [ ] zadanie 1 -
+- [ ] zadanie 2 -
 - [ ] zadanie 3
 
 ## s2324
 
-- [ ] zadanie 1
-- [ ] zadanie 2
-- [ ] zadanie 3
+- [ ] zadanie 1 -
+- [ ] zadanie 2 -
+- [ ] zadanie 3 -
 
 ## s2425
 
-- [ ] zadanie 1
-- [ ] zadanie 2
-- [ ] zadanie 3
+- [ ] zadanie 1 -
+- [ ] zadanie 2 -
+- [ ] zadanie 3 -

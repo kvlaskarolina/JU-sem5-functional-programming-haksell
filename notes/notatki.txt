@@ -59,3 +59,21 @@ wyklad 8 ---
 
 bezpunktowe ---
 
+
+
+List comprehension w Haskellu to składnia, która pozwala na tworzenie nowych list w zwięzły sposób, stosując logikę filtrowania, mapowania lub warunkową do elementów istniejącej listy. Umożliwia ona generowanie list bez jawnej rekurencji, co czyni kod bardziej czytelnym i efektywnym. 
+Jak to działa?
+Struktura: List comprehension w Haskellu przyjmuje formę [<wyrażenie> | <zmienna> <- <lista>, <warunek>].
+Działanie:
+<-: Określa generator, który przypisuje poszczególne elementy z lista do zmienna.
+|: Oddziela generator(y) od reszty wyrażenia.
+warunek: Opcjonalna część, która filtruje elementy. Tylko te, które spełniają warunek, są przetwarzane dalej.
+<wyrażenie>: Określa, co ma być wynikiem dla każdego elementu, który przeszedł przez filtr. Może to być wartość zmienna lub transformacja tej wartości. 
+Przykład
+Aby stworzyć listę kwadratów liczb parzystych z zakresu od 1 do 10:
+Zapis: [x*x | x <- [1..10], x mod 2 == 0]
+Wyjaśnienie:
+x <- [1..10]: Bierzemy kolejne liczby z listy [1, 2, 3, ..., 10] i przypisujemy je do x.
+x mod 2 == 0: Sprawdzamy, czy x jest liczbą parzystą.
+x*x: Jeśli warunek jest spełniony, obliczamy kwadrat x.
+
