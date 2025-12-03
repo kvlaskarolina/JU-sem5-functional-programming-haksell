@@ -56,3 +56,6 @@ foldr - x1 ◦ (x2 ◦ . . . ◦ (xn−1 ◦ (xn ◦ x)). . .).
 wyklad 7 ---
 
 wyklad 8 ---
+
+bezpunktowe ---
+

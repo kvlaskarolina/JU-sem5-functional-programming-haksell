@@ -1,12 +1,8 @@
---Zadanie 1. Napisa´c funkcj˛e oddbins n, generuj ˛ac ˛a list˛e wszystkich ci ˛agów 
---binarnych o długo´sci n, w których liczba jedynek jest nieparzysta. Ci ˛agi reprezentujemy
---w postaci list, zatem np.
---oddbins 3 = [[1, 0, 0], [0, 1, 0], [0, 0, 1], [1, 1, 1]].
---Kolejno´s´c ci ˛agów w li´scie nie ma znaczenia. Zakładamy, ˙ze n ­ 1.
-
 oddbins :: Int -> [[Int]]
-oddbins = 
+oddbins n = p True n []
 
-p :: Int -> [Int] -> [Int]
-p 
-
+p :: Bool -> Int -> [Int] -> [[Int]]
+p _ 0 _ = [[]]
+p True 1 _ = [[1]]
+p False 1 _ = [[0]]
+p b n xs = [0:ys | ys <- p b (n-1) xs] ++ [1:ys | ys <- p (not b) (n-1) xs]
