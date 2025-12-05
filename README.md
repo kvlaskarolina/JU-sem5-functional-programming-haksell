@@ -110,14 +110,14 @@ checklist
 ## s1920
 
 - [ ] zadanie 1 -
-- [ ] zadanie 2
+- [ ] zadanie 2 -
 - [ ] zadanie 3
 
 ## s2021
 
 - [ ] zadanie 1 -
-- [ ] zadanie 2
-- [ ] zadanie 3
+- [ ] zadanie 2 -
+- [ ] zadanie 3 -
 
 ## s2122
 
