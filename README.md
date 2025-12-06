@@ -75,18 +75,18 @@ checklist
 
 - [x] zadanie 1
 - [x] zadanie 2
-- [ ] zadanie 3
+- [x] zadanie 3
 
 ## s1415
 
-- [x] zadanie 1
+- [ ] zadanie 1
 - [ ] zadanie 2
-- [x] zadanie 3 -
+- [ ] zadanie 3
 
 ## s1516
 
-- [ ] zadanie 1 -
-- [x] zadanie 2 -
+- [x] zadanie 1
+- [x] zadanie 2
 - [ ] zadanie 3
 
 ## s1617
@@ -97,8 +97,8 @@ checklist
 
 ## s1718
 
-- [ ] zadanie 1
-- [ ] zadanie 2 ??
+- [x] zadanie 1
+- [x] zadanie 2
 - [ ] zadanie 3
 
 ## s1819
@@ -109,8 +109,8 @@ checklist
 
 ## s1920
 
-- [ ] zadanie 1 -
-- [ ] zadanie 2 -
+- [x] zadanie 1
+- [x] zadanie 2
 - [ ] zadanie 3
 
 ## s2021

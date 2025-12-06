@@ -1,6 +1,5 @@
 repl :: Eq a => [a] -> [(a,a)] -> [a]
-repl _ [] = []
-repl list (key:keys) = repl (replace list key) keys
+repl list keys = foldl replace list keys
 
 replace :: Eq a => [a] -> (a,a) -> [a]
 replace [] _ = []

@@ -1,7 +1,4 @@
 h:: [a] -> [a]
-h a = pom a 0
+h = map fst . filter (even . snd) . zip id [0..]
 
-pom :: [a] -> Int -> [a]
-pom [] _ = []
-pom (x:xs) n | n `mod` 2 == 0 = x : pom xs 1
-             | otherwise = pom xs 0
+-- h lista = map fst (filter (\(x, i) -> even i) (zip lista [0..]))
