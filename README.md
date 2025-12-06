@@ -73,9 +73,9 @@ checklist
 
 ## s1314
 
-- [x] zadanie 1 -
-- [ ] zadanie 2 -
-- [x] zadanie 3
+- [x] zadanie 1
+- [x] zadanie 2
+- [ ] zadanie 3
 
 ## s1415
 

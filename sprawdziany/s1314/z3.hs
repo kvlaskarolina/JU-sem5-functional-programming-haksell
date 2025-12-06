@@ -1,7 +1,12 @@
-compref :: [Int] -> [Int] -> Int
-compref a b = pom (zip a b )
+compref :: (Eq a) => [a] -> [a] -> Int
+compref   = (pom.). zip
 
-pom:: [(Int,Int)] -> Int
-pom [] = 0
-pom (x:xs )  | fst x == snd x = pom xs + 1
-             | otherwise = 0
+pom :: Eq a => [(a, a)] -> Int
+pom = length . takeWhile id . map (\(x, y) -> x == y)
+
+-- takeWhile id
+-- Funkcja id (tożsamość) w tym kontekście 
+-- to po prostu sprawdzenie, czy wartość to 
+-- True. takeWhile id bierze elementy z 
+-- listy tak długo, jak długo są one True. 
+-- Gdy napotka pierwsze False, przerywa.
