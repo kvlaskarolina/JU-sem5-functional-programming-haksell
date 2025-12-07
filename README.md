@@ -111,7 +111,7 @@ checklist
 
 - [x] zadanie 1
 - [x] zadanie 2
-- [ ] zadanie 3
+- [x] zadanie 3
 
 ## s2021
 
