@@ -122,13 +122,13 @@ checklist
 ## s2122
 
 - [ ] zadanie 1 -
-- [ ] zadanie 2 -
+- [x] zadanie 2 -
 - [ ] zadanie 3
 
 ## s2223
 
 - [ ] zadanie 1 -
-- [ ] zadanie 2 -
+- [x] zadanie 2 -
 - [ ] zadanie 3
 
 ## s2324
