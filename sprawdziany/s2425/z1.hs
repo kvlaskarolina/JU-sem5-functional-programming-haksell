@@ -1,0 +1,1 @@
+wyplata :: Integer -> Integer -> Integer -> [Integer]

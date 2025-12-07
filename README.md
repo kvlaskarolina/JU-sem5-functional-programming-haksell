@@ -87,7 +87,7 @@ checklist
 
 - [x] zadanie 1
 - [x] zadanie 2
-- [ ] zadanie 3
+- [x] zadanie 3
 
 ## s1617
 
@@ -140,5 +140,5 @@ checklist
 ## s2425
 
 - [ ] zadanie 1 -
-- [ ] zadanie 2 -
+- [x] zadanie 2
 - [ ] zadanie 3 -
