@@ -80,7 +80,7 @@ checklist
 ## s1415
 
 - [x] zadanie 1 - mumocc - ile jaka liczba wystepuje BP
-- [ ] zadanie 2 - drzewo obliczen typu CT
+- [x] zadanie 2 - drzewo obliczen typu CT
 - [x] zadanie 3 - h - co drugi element listy wypisac BP
 
 ## s1516
@@ -91,15 +91,15 @@ checklist
 
 ## s1617
 
-- [ ] zadanie 1 -
+- [ ] zadanie 1 - wszystkie liczby takie ze a,'n + a2'n + a3'n +... = a
 - [x] zadanie 2 - prefiksy sufiksy
 - [ ] zadanie 3 - rododendron
 
 ## s1718
 
-- [x] zadanie 1
-- [x] zadanie 2
-- [ ] zadanie 3
+- [x] zadanie 1 - rd sum dzielniki(k) = k + n
+- [x] zadanie 2 - repl
+- [ ] zadanie 3 - slabe drzewo binarne
 
 ## s1819
 
@@ -134,7 +134,7 @@ checklist
 ## s2324
 
 - [x] zadanie 1 - ciagi |a|\*2=|b|+|c|
-- [ ] zadanie 2 - collatz
+- [x] zadanie 2 - collatz
 - [ ] zadanie 3 - wieloszczet
 
 ## s2425
@@ -152,8 +152,8 @@ checklist
 - 2021
 - 1920
 - 1819 z2 - eq wyazenia
-- 1718
-- 1617
+- 1718 z3 - sdb
+- 1617 z3 - rododendron
 - 1516 z3 - klos
 - 1415 z2 - drzewo CT
 - 1314
