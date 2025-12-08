@@ -115,9 +115,9 @@ checklist
 
 ## s2021
 
-- [x] zadanie 1
-- [x] zadanie 2
-- [ ] zadanie 3 -
+- [x] zadanie 1 - minDist punkty
+- [x] zadanie 2 - drzewo szukanie sciezki do korzenia
+- [ ] zadanie 3 - permutacje zamykajace
 
 ## s2122
 
@@ -127,9 +127,9 @@ checklist
 
 ## s2223
 
-- [ ] zadanie 1 -
-- [x] zadanie 2 -
-- [ ] zadanie 3
+- [x] zadanie 1 - cztery
+- [x] zadanie 2 - oceny
+- [x] zadanie 3 - bluszcz skierowany
 
 ## s2324
 
