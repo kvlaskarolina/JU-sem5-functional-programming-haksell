@@ -135,7 +135,7 @@ checklist
 
 - [x] zadanie 1 - ciagi |a|\*2=|b|+|c|
 - [x] zadanie 2 - collatz
-- [ ] zadanie 3 - wieloszczet
+- [x] zadanie 3 - wieloszczet
 
 ## s2425
 
