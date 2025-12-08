@@ -79,21 +79,21 @@ checklist
 
 ## s1415
 
-- [ ] zadanie 1
-- [ ] zadanie 2
-- [ ] zadanie 3
+- [x] zadanie 1 - mumocc - ile jaka liczba wystepuje BP
+- [ ] zadanie 2 - drzewo obliczen typu CT
+- [x] zadanie 3 - h - co drugi element listy wypisac BP
 
 ## s1516
 
-- [x] zadanie 1
-- [x] zadanie 2
-- [x] zadanie 3
+- [x] zadanie 1 - dlugosc ab -> a ba -> b itd
+- [x] zadanie 2 - val(a,b)= najwieksza potega b ktora dzieli a
+- [x] zadanie 3 - klos
 
 ## s1617
 
 - [ ] zadanie 1 -
-- [ ] zadanie 2
-- [ ] zadanie 3
+- [x] zadanie 2 - prefiksy sufiksy
+- [ ] zadanie 3 - rododendron
 
 ## s1718
 
@@ -103,9 +103,9 @@ checklist
 
 ## s1819
 
-- [ ] zadanie 1
-- [ ] zadanie 2
-- [x] zadanie 3
+- [x] zadanie 1 - ciagi rekurencyjne
+- [x] zadanie 2 - eq wyreazenia
+- [x] zadanie 3 - przesuniecia cykliczne
 
 ## s1920
 
@@ -146,9 +146,14 @@ checklist
 ## struktury danych
 
 - 2425 z3 - gekon
-- 2324
+- 2324 z3 - wieloszczet
 - 2223
 - 2122
 - 2021
 - 1920
-- 1819
+- 1819 z2 - eq wyazenia
+- 1718
+- 1617
+- 1516 z3 - klos
+- 1415 z2 - drzewo CT
+- 1314
