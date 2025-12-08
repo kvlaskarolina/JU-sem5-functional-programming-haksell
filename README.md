@@ -115,8 +115,8 @@ checklist
 
 ## s2021
 
-- [ ] zadanie 1 -
-- [ ] zadanie 2 -
+- [x] zadanie 1
+- [x] zadanie 2
 - [ ] zadanie 3 -
 
 ## s2122
@@ -133,12 +133,22 @@ checklist
 
 ## s2324
 
-- [ ] zadanie 1 -
-- [ ] zadanie 2 -
-- [ ] zadanie 3 -
+- [x] zadanie 1 - ciagi |a|\*2=|b|+|c|
+- [ ] zadanie 2 - collatz
+- [ ] zadanie 3 - wieloszczet
 
 ## s2425
 
-- [ ] zadanie 1 -
-- [x] zadanie 2
-- [ ] zadanie 3 -
+- [x] zadanie 1 - wyplata
+- [x] zadanie 2 - slowa a'i b'j i!=j
+- [x] zadanie 3 - gekon
+
+## struktury danych
+
+- 2425 z3 - gekon
+- 2324
+- 2223
+- 2122
+- 2021
+- 1920
+- 1819
