@@ -1,0 +1,7 @@
+c(nazwa_modułu). – kompilacja.
+nazwa_modułu:funkcja(...). – wywołanie funkcji
+eksportowanej w module.
+pwd(). – wyświetlenie katalogu, w którym się znajdujemy.
+cd(...). – zmiana katalogu, w którym się znajdujemy.
+q(). – zakończenie działania.
+Każde polecenie musimy zakończyć kropką.
