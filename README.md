@@ -157,3 +157,77 @@ checklist
 - 1516 z3 - klos
 - 1415 z2 - drzewo CT
 - 1314
+
+# sprawdzian 2
+
+## s1314
+
+- [ ] zadanie 1
+- [ ] zadanie 2
+- [ ] zadanie 3
+
+## s1415
+
+- [x] zadanie 1 - listy [1,2,3,5,6,8,9] -> [123][56][89]
+- [ ] zadanie 2
+- [ ] zadanie 3
+
+## s1516
+
+- [ ] zadanie 1
+- [ ] zadanie 2
+- [ ] zadanie 3
+
+## s1617
+
+- [ ] zadanie 1
+- [ ] zadanie 2
+- [ ] zadanie 3
+
+## s1718
+
+- [ ] zadanie 1
+- [ ] zadanie 2
+- [ ] zadanie 3
+
+## s1819
+
+- [ ] zadanie 1
+- [ ] zadanie 2
+- [ ] zadanie 3
+
+## s1920
+
+- [ ] zadanie 1
+- [ ] zadanie 2
+- [ ] zadanie 3
+
+## s2021
+
+- [ ] zadanie 1
+- [ ] zadanie 2
+- [ ] zadanie 3
+
+## s2122
+
+- [ ] zadanie 1
+- [ ] zadanie 2
+- [ ] zadanie 3
+
+## s2223
+
+- [ ] zadanie 1
+- [ ] zadanie 2
+- [ ] zadanie 3
+
+## s2324
+
+- [ ] zadanie 1
+- [ ] zadanie 2
+- [ ] zadanie 3
+
+## s2425
+
+- [ ] zadanie 1
+- [ ] zadanie 2
+- [ ] zadanie 3
